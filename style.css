@@ -48,3 +48,13 @@ p::selection{
   padding : 8px 16px;
   display: inline-block;
 }
+.pagination a.active{
+  background-color: #4CAF50;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+}
+.pagination a:hover:not(.active){
+  background-color: #ddd;
+  border-radius: 50%;
+}
