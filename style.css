@@ -1,93 +1,28 @@
-body {
-  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
-}
-.item {
-  background-color: lightblue;
-  width: 250px;
-  height: 250px;
-  border: 1px solid black;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+.container{
+  display: flex;
+  border: 10px solid black;
+  height: 90vh;
+  justify-content: center;
   align-items: center;
+  gap: 1em;
 }
-h1::first-letter {
-  color: red;
-  font-size: 2em;
-}
-p::first-line{
-  background-color: yellow;
-}
-p::selection{
-  color: white;
-  background-color: black;
-}
-#a::after{
-  content: "🍎";
-}
-#b::after{
-  content: "🍌";
-}
-#c::after{
-  content: "🍊";
-}
-#fruit li::marker{
-  content: "🔯";
-}
-.pagination{
+.box{
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
   text-align: center;
+  border-radius: 15px;
 }
-.pagination a{
-  color: black;
-  text-decoration: none;
-  padding : 8px 16px;
-  display: inline-block;
+#box1{
+  background-color: rgb(29, 146, 186);
 }
-.pagination a.active{
-  background-color: #4CAF50;
-  color: white;
-  font-weight: 500;
-  border-radius: 50%;
+#box2{
+  background-color: rgb(27, 170, 27);
 }
-.pagination a:hover:not(.active){
-  background-color: #ddd;
-  border-radius: 50%;
+#box3{
+  background-color: rgb(186, 9, 36);
 }
-.dropdown button{
-  background-color: lightblue;
-  color: navy;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-}
-.dropdown a{
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 10px 15px;
-
-}
-.dropdown .content{
-  display: none;
-  background-color: skyblue;
-  position: absolute;
-  min-width: 100px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-}
-.dropdown:hover .content{
-  display: block;
-}
-.dropdown:hover button{
-  background-color: rgb(125,125,125);
-}
-.dropdown a:hover{
-  background-color: red;
-}
-.dropdown{
-  display: inline-block;
+#box4{
+  background-color: rgb(181, 181, 22);
+  align-self: flex-end;
 }
