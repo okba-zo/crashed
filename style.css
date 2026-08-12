@@ -41,7 +41,7 @@
   background-color: red;
   font-size: 12em;
   text-align: center;
-  animation: biger 2s;
+  animation: fade 2s;
 }
 @keyframes slide{
   from{transform: translateX(200px)}
@@ -52,4 +52,7 @@
 }
 @keyframes biger{
   50%{transform: scale(1.5)}
+}
+@keyframes fade{
+  100%{opacity: 0}
 }
