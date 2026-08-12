@@ -33,6 +33,20 @@
   text-align: center;
   background-color:lightgreen;
   font-size: 12em;
-  transform: rotatez(80deg);
-  transform: skew(20deg, 20deg);
+  transform: rotatez(80deg) skew(20deg, 20deg);
 } 
+#boxy{
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  font-size: 12em;
+  text-align: center;
+  animation: slide 2s;
+}
+@keyframes slide{
+  from{transform: translateX(200px)}
+  to{transform: translateY(100px)}
+}
+@keyframes rotate{
+  100%{transform: rotate(360deg)}
+}
