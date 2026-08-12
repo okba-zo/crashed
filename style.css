@@ -26,3 +26,12 @@
   background-color: rgb(181, 181, 22);
   align-self: flex-end;
 }
+#mybox{
+  width: 250px;
+  height: 250px;
+  border: 5px solid black;
+  text-align: center;
+  background-color:lightgreen;
+  font-size: 12em;
+
+}
