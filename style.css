@@ -41,7 +41,7 @@
   background-color: red;
   font-size: 12em;
   text-align: center;
-  animation: fade 2s;
+  animation: rgb 4s infinite;
 }
 @keyframes slide{
   from{transform: translateX(200px)}
@@ -55,4 +55,12 @@
 }
 @keyframes fade{
   100%{opacity: 0}
+}
+@keyframes rgb {
+  0%{background-color: rgb(241, 29, 29)}
+  20%{background-color: orange}
+  40%{background-color: yellow}
+  60%{background-color: rgb(56, 243, 56)}
+  80%{background-color: rgb(39, 147, 183)}
+  100%{background-color: rgb(237, 44, 237)}
 }
