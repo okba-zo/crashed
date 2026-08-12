@@ -33,5 +33,5 @@
   text-align: center;
   background-color:lightgreen;
   font-size: 12em;
-
-}
+  transform: rotatez(80deg);
+} 
