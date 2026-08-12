@@ -34,4 +34,5 @@
   background-color:lightgreen;
   font-size: 12em;
   transform: rotatez(80deg);
+  transform: skew(20deg, 20deg);
 } 
