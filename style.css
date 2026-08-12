@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(35, 35, 35);
+}
+
 .container{
   display: flex;
   border: 10px solid black;
@@ -41,7 +45,9 @@
   background-color: red;
   font-size: 12em;
   text-align: center;
-  animation: rgb 4s infinite;
+}
+#boxy:hover{
+    animation: glow 5s infinite;
 }
 @keyframes slide{
   from{transform: translateX(200px)}
@@ -63,4 +69,12 @@
   60%{background-color: rgb(56, 243, 56)}
   80%{background-color: rgb(39, 147, 183)}
   100%{background-color: rgb(237, 44, 237)}
+}
+@keyframes glow {
+  0%{box-shadow: 10px 10px 10px rgb(239, 52, 52)}
+  20%{box-shadow: 10px 10px 10px orange}
+  40%{box-shadow: 10px 10px 10px yellow}
+  60%{box-shadow: 10px 10px 10px rgb(56, 243, 56)}
+  80%{box-shadow: 10px 10px 10px rgb(39, 147, 183)}
+  100%{box-shadow: 10px 10px 10px rgb(237, 44, 237)}
 }
