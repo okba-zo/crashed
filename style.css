@@ -41,7 +41,7 @@
   background-color: red;
   font-size: 12em;
   text-align: center;
-  animation: slide 2s;
+  animation: biger 2s;
 }
 @keyframes slide{
   from{transform: translateX(200px)}
@@ -49,4 +49,7 @@
 }
 @keyframes rotate{
   100%{transform: rotate(360deg)}
+}
+@keyframes biger{
+  50%{transform: scale(1.5)}
 }
